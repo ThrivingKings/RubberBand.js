@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+}
+#RubberBandjs {
+	background: #8a99a6;
+	box-shadow: inset 0px -10px 25px -5px rgba(0,0,0,0.3);
+	height: 80px;
+	position: absolute;
+	top: -80px;
+	width: 100%;
+}
+.rband {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 30px 0 0 0;
+	text-align: center;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.rband .text {
+	display: inline-block;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+}
+.rband img {
+	height: 16px;
+	margin-right: 20px;
+	position: relative;
+	top: 3px;
+	width: 16px;
+}
+.rband .load { display: none; }
