@@ -101,7 +101,7 @@
 				} else if($me.variables.e_height>=0) {
 					
 					// no more scrolling for now
-					$(window).unbind("scroll");
+					$(window).unbind("scroll touchmove");
 					
 					// set CSS to avoid "over-scrolling"
 					$me.variables.$RBe.css('top', '0px');
@@ -161,7 +161,7 @@
 			
 				//$(window).scrollTop(1); 
 			
-				$(window).on("scroll", $me.RB); 
+				$(window).on("scroll touchmove", $me.RB); 
 			
 				$me.variables.e_height = $me.variables.original_top;
 		
